@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+main{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#texto{
+    width: 70%;
+}
+
+#muestra{
+    width: 35%;
+    background-color: white;
+    padding: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-radius: 24px;
+}
+
+textarea{
+    width: 99%;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: darkblue;
+    border: none;
+    background-color: #E5E5E5;
+}
+
+#texto p{
+    display: flex;
+    margin-top: 20px;
+    color: gray;
+}
+
+.btn{
+    height: 50px;
+    border-radius: 14px;
+    border-color: darkblue;
+}
+
+#botonera{
+    margin-top: 14px;
+}
+
+#encriptar{
+    width: 49%;
+    background-color: darkblue;
+    color: white;
+}
+
+#encriptar:hover{
+    background-color: #E5E5E5;
+    color: darkblue;
+}
+
+#desencriptar{
+    width: 49%;
+    color: darkblue;
+}
+
+#desencriptar:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+#muñeco{
+    width: 70%;
+}
+
+#vacio{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#vacio h2{
+    margin-top: 15px;
+}
+
+#vacio p{
+    margin-top: 15px;
+}
+
+#mensaje{
+    font-size: 20px;
+}
+
+#copiar{
+    width: 96%;
+    color: darkblue;
+}
+
+#copiar:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+@media screen and (min-width: 375px) and  (max-width:768px) {
+
+    #logo{
+        margin-left: 20px;
+    }
+
+    main{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #texto{
+        width: 100%;
+    }
+
+    #muñeco{
+        display: none;
+    }
+
+    #muestra{
+        margin-top: 30px;
+        width: 95%;
+        margin-left: 0px;
+    }
+
+    #vacio{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    #vacio h2{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width:375px) {
+    #logo{
+        margin-left: 20px;
+    }
+
+    main{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #texto{
+        width: 100%;
+    }
+
+    #muñeco{
+        display: none;
+    }
+
+    #muestra{
+        margin-top: 30px;
+        width: 95%;
+        margin-left: 0px;
+    }
+
+    #vacio{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    #vacio h2{
+        margin-top: 0px;
+    }
+
+    #botonera{
+        display: grid;
+    }
+
+    #encriptar{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #desencriptar{
+        width: 100%;
+    }
+
+    #copiar{
+        width: 100%;
+    }
+}

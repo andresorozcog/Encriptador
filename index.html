@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/null/unlock-2.png" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <img src="images/logo.svg" alt="logo" id="logo">
+    </nav>
+    <main>
+        <div id="texto">
+            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Ingrese el texto aquí" autofocus></textarea>
+            <p><img src="images/alerta.svg" alt="alerta">&nbsp;&nbsp;Solo letras minúsculas y sin acentos</p>
+            <div id="botonera">
+                <button class="btn" id="encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="btn" id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <div id="muestra">
+            <div id="vacio">
+                <img src="images/muñeco.svg" alt="muñeco" id="muñeco">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+            <div id="resultado">
+                <p id="mensaje"></p>
+                <button class="btn" id="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
