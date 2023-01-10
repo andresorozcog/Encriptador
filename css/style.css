@@ -9,7 +9,25 @@ body{
 
 #logo{
     margin-left: 50px;
+}
+
+#navbar{
     margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#caja_titulo{
+    width: 100%;
+    text-align: center;
+    margin-left: -62px;
+}
+
+#titulo{
+    font-size: 3rem;
+    font-family: "Courier New";
+    font-style: italic;
+    color: darkblue;
 }
 
 main{
@@ -41,6 +59,10 @@ textarea{
     color: darkblue;
     border: none;
     background-color: #E5E5E5;
+}
+
+textarea:focus{
+    outline: none;
 }
 
 #texto p{
@@ -104,6 +126,7 @@ textarea{
 #copiar{
     width: 96%;
     color: darkblue;
+    margin-top: 20px;
 }
 
 #copiar:hover{
@@ -144,6 +167,10 @@ textarea{
 
     #vacio h2{
         margin-top: 0px;
+    }
+
+    #caja_titulo{
+        display: none;
     }
 }
 
@@ -196,5 +223,9 @@ textarea{
 
     #copiar{
         width: 100%;
+    }
+
+    #caja_titulo{
+        display: none;
     }
 }
